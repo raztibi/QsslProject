@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="‫עמוד-1‬" id="c78-i6YWx34wTXFUyA2n">
+    <mxGraphModel dx="1647" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Remote Server" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="570" width="205" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="388" y="120" width="325" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="User" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="524" y="145" width="62" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Bank Application" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="480" y="267" width="149" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Remote Server" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="395" y="595" width="135" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Database" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
+          <mxGeometry x="600" y="595" width="96" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="QSSL" style="curved=1;startArrow=classic;endArrow=block;exitX=0.2;exitY=0.99;entryX=0.5;entryY=-0.01;fontSize=12;startFill=1;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Data Processing" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=0.99;entryX=0.5;entryY=-0.01;fontSize=12;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="648" y="341" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="480" as="targetPoint" />
+            <mxPoint x="180" y="369" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="520" />
+              <mxPoint x="426" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-22" value="USING Qantum Resistant TLS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_WXpjbPRTsjR5i1tZ99-21">
+          <mxGeometry x="0.1074" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-11" value="TLS Handshake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="150" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_WXpjbPRTsjR5i1tZ99-14" target="x_WXpjbPRTsjR5i1tZ99-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="104.75" y="340" as="targetPoint" />
+            <mxPoint x="74.75" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-18" value="Key Exchange" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_WXpjbPRTsjR5i1tZ99-17">
+          <mxGeometry x="-0.2484" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-14" value="Crystal Kyber (Kem)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-15" value="&lt;div&gt;Crystal Dilithium&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="x_WXpjbPRTsjR5i1tZ99-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.5" y="339.5" as="targetPoint" />
+            <mxPoint x="260" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_WXpjbPRTsjR5i1tZ99-20" value="Digital Signature" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_WXpjbPRTsjR5i1tZ99-19">
+          <mxGeometry x="-0.2484" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
