@@ -1,6 +1,6 @@
 # Quantum-Resistant Banking Communication System
 
-![Bank Vault](qsslWPF/Resources/vault.jpg)
+![Bank Vault](PhaseB/qsslWPF/Resources/vault.jpg)
 
 ## Overview
 A proof-of-concept banking system implementing quantum-resistant cryptography alongside traditional encryption methods. The system combines RSA with Kyber for key exchange, and uses both ECC and Dilithium for digital signatures, providing hybrid classical-quantum protection.
@@ -23,7 +23,8 @@ A proof-of-concept banking system implementing quantum-resistant cryptography al
 
 ## Usage
 1. Run server.exe
-2. Wait for server initialization
+2. Wait for server 
+
 3. Run client.exe
 4. Use the WPF interface for banking operations
 
