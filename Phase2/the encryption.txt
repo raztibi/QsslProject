@@ -1,0 +1,25 @@
+1:
+Server:	Creatiing keys for - Public:  Kyber,Dillithium, RSA, ECC
+			     Private: Kyber,Dillithium, RSA, ECC
+Client:	Creatiing keys for - Public:  Dillithium, ECC, 
+			     Private: Dillithium, ECC, AES
+
+2. Client sends hello.
+3. Server sends all his public keys to Client.
+4. Client sends all his public keys to Server.         
+
+5. Client sends: RSA(AES enc key) (with public RSA key from server) 			 	 	Signature with private ECC KEY (own).
+6. Server verify signature with client public ECC key, and decrypt message with private RSA key. - > 	server now have AES encryption key.
+
+7. Client uses Kyber public key (from server)  and use KEM encrypt algorithm to create ciphertext and 	shared_secret.
+8. Client sign the ciphertext with dillitium private key and sends both to server.
+
+9. Server verify message with client dillitium public key, and decrypt the message using his private 	kyber key. -> server now have kyber shared secret
+10. Both sides XOR the 2 session keys (AES encryption key ^ kyber shared secret) (both keys are 32byte)
+	 -> this is the new session key for aes encryption for the rest of the session.
+
+11. Client sends messages using aes encryption with session_key and sign the message with dillituim.
+12. Server verify using client public dillitium key, and decrypt using AES session_key.
+
+13. Server reply messages using aes sesion key and sign with with dillituim.
+14. Client verify using server public dillitium key, and decrypt using AES session_key.

@@ -1,0 +1,19 @@
+C:\Study\final project\QSSL_CODE\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.deps.json
+C:\Study\final project\QSSL_CODE\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.dll
+C:\Study\final project\QSSL_CODE\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.pdb
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.csproj.AssemblyReference.cache
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.AssemblyInfoInputs.cache
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.AssemblyInfo.cs
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.csproj.CoreCompileInputs.cache
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.dll
+C:\Study\final project\QSSL_CODE\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.pdb
+S:\QSSL\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.deps.json
+S:\QSSL\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.dll
+S:\QSSL\qsslSdk\bin\Debug\netstandard2.0\qsslSdk.pdb
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.AssemblyInfoInputs.cache
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.AssemblyInfo.cs
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.csproj.CoreCompileInputs.cache
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.dll
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.pdb
+S:\QSSL\qsslSdk\obj\Debug\netstandard2.0\qsslSdk.csprojAssemblyReference.cache
