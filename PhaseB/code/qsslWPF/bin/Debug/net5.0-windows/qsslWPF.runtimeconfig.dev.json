@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\raztibi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\raztibi\\.nuget\\packages"
+    ]
+  }
+}

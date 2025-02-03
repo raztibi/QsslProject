@@ -1,6 +1,6 @@
 # Quantum-Resistant Banking Communication System
 
-![Bank Vault](PhaseB/qsslWPF/Resources/vault.jpg)
+![Bank Vault](PhaseB/code/qsslWPF/Resources/vault.jpg)
 
 ## Overview
 A proof-of-concept banking system implementing quantum-resistant cryptography alongside traditional encryption methods. The system combines RSA with Kyber for key exchange, and uses both ECC and Dilithium for digital signatures, providing hybrid classical-quantum protection.
