@@ -1,5 +1,5 @@
 @echo off
-cd out\build\x64-Debug\tests
+cd out\build\x64-Debug\qsslBackend
 
 if not exist server.exe (
     echo Run build all first
