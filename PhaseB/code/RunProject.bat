@@ -15,7 +15,7 @@ start server.exe
 timeout /t 5 /nobreak
 start client.exe
 
-timeout /t 3/nobreak
+timeout /t 8 /nobreak
 
 cd ..\..\..\..\qsslWPF\bin\Debug\net5.0-windows
 start qsslWPF.exe
